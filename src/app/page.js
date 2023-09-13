@@ -1,12 +1,13 @@
-import Hero from '@/components/home/Hero'
-import Services from '@/components/home/Services'
-import Image from 'next/image'
+import Clients from "@/components/home/Clients";
+import Hero from "@/components/home/Hero";
+import Services from "@/components/home/Services";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
-      <Hero/>
-      <Services/>
+      <Hero />
+      <Services />
+      <Clients />
     </main>
-  )
+  );
 }
