@@ -1,4 +1,5 @@
 import AboutUs from "@/components/home/AboutUs";
+import Calender from "@/components/home/Calender";
 import Clients from "@/components/home/Clients";
 import Hero from "@/components/home/Hero";
 import Services from "@/components/home/Services";
@@ -10,6 +11,7 @@ export default function Home() {
       <Services />
       <Clients />
       <AboutUs />
+      <Calender />
     </main>
   );
 }

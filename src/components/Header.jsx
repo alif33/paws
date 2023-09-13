@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center max-w-[1300px] mx-auto mt-[18px]">
       <div className="flex justify-center items-center gap-[14px]">
-        <Image src="/images/logo.png" width={74} height={74} alt="logo" />
+        <Image src="/images/logo.svg" width={74} height={74} alt="logo" />
         <Image
-          src="/images/PAWS.PLACE.png"
+          src="/images/PAWS.PLACE.svg"
           width={191}
           height={24}
           alt="brand_name"

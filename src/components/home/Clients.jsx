@@ -1,4 +1,14 @@
+"use client";
+
 import Image from "next/image";
+
+// Import Swiper styles
+import "swiper/css";
+
+import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// import required modules
 
 export default function Clients() {
   return (
@@ -14,22 +24,99 @@ export default function Clients() {
           <Image src="/images/seeMore.svg" width={20} height={20} alt="arrow" />
         </div>
       </div>
-      <div className="flex gap-[24px] pt-[40px]">
-        <div className="border-[2px] border-dashed border-[#6F0C88] rounded-[20px] p-1">
-          <Image src="/images/dog1.svg" width={256} height={273} alt="Dog1" />
-        </div>
-        <div className="border-[2px] border-dashed border-[#6F0C88] rounded-[20px] p-1">
-          <Image src="/images/dog2.svg" width={256} height={273} alt="Dog2" />
-        </div>
-        <div className="border-[2px] border-dashed border-[#6F0C88] rounded-[20px] p-1">
-          <Image src="/images/dog3.svg" width={256} height={273} alt="Dog3" />
-        </div>
-        <div className="border-[2px] border-dashed border-[#6F0C88] rounded-[20px] p-1">
-          <Image src="/images/dog4.svg" width={256} height={273} alt="Dog4" />
-        </div>
-        <div className="border-y-[2px] border-l-[2px] border-dashed border-[#6F0C88] rounded-l-[20px] p-1">
-          <Image src="/images/dog5.svg" width={179} height={273} alt="Dog5" />
-        </div>
+      <div className="flex justify-center pt-[40px]">
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={30}
+          // centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          // navigation={true}
+          modules={[Autoplay]}
+        >
+          <SwiperSlide>
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog1.svg"
+                width={256}
+                height={273}
+                alt="Dog1"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog2.svg"
+                width={256}
+                height={273}
+                alt="Dog2"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog3.svg"
+                width={256}
+                height={273}
+                alt="Dog3"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog4.svg"
+                width={256}
+                height={273}
+                alt="Dog4"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog2.svg"
+                width={256}
+                height={273}
+                alt="Dog2"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog3.svg"
+                width={256}
+                height={273}
+                alt="Dog3"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog1.svg"
+                width={256}
+                height={273}
+                alt="Dog5"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+              <Image
+                src="/images/dog2.svg"
+                width={256}
+                height={273}
+                alt="Dog2"
+              />
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="col-span-5">
           <Image
-            src="/images/Dog.png"
+            src="/images/Dog.svg"
             width={608}
             height={625}
             alt="hero_image"

@@ -71,6 +71,11 @@ export default function AboutUs() {
           <BsChevronRight size={28} />
         </div>
       </div>
+      <div className="flex justify-center items-center gap-[10px] pb-[80px]">
+        <div className="min-w-[23px] min-h-[23px] bg-[#D9D9D9] rounded-full"></div>
+        <div className="min-w-[23px] min-h-[23px] bg-[#6F0C88] rounded-full"></div>
+        <div className="min-w-[23px] min-h-[23px] bg-[#D9D9D9] rounded-full"></div>
+      </div>
     </div>
   );
 }
