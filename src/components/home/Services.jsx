@@ -4,8 +4,8 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div id="services" className="bg-[#FDF4FF] px-[70px] pt-[50px]">
-      <div className="flex justify-between">
-        <div className="text-[40px] font-black w-[896px] text-[#6F0C88]">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-between">
+        <div className="text-[20px] lg:text-[40px] font-black px-5 w-[400px] lg:w-[896px] text-[#6F0C88]">
           {
             "Our services are customized to perfectly meet your pet's unique needs."
           }
@@ -15,7 +15,7 @@ const Services = () => {
           <Image src="/images/arrow.svg" width={13} height={10} alt="arrow" />
         </div>
       </div>
-      <div className="grid grid-cols-10 gap-[24px] pt-[40px] pb-[100px]">
+      <div className="grid lg:grid-cols-10 gap-[24px] pt-[40px] pb-[100px]">
         <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-[#80DEEA] w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
           <h3 className="text-[#3D3D3D] text-center text-[16px] font-bold pt-[15px]">
             Full Grooming

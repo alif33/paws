@@ -6,7 +6,6 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Gallery() {
-
   const breakPoints = {
     100: {
       slidesPerView: 1,
@@ -20,12 +19,12 @@ export default function Gallery() {
     1310: {
       slidesPerView: 4,
     },
-  } 
+  };
 
   return (
     <div id="gallery" className="px-[70px] pt-[80px] overflow-x-hidden">
-      <div className="flex justify-between">
-        <div className="text-[40px] font-black w-[896px] text-[#6F0C88]">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-between">
+        <div className="text-[20px] lg:text-[40px] font-black px-5 lg:px-0 pb-3 lg:pb-0 w-[400px] lg:w-[896px] text-[#6F0C88]">
           {
             "Pet gallery, take a look on our special clients and how they look like"
           }
