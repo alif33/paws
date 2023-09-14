@@ -2,7 +2,15 @@ import Image from "next/image";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoFacebook } from "react-icons/io";
 import { SiYoutube } from "react-icons/si";
-import Map from "./Map";
+import dynamic from "next/dynamic";
+
+const Map = dynamic(
+  () => import('./Map'),
+  {
+    ssr: false,
+    loading: () => (<div>Google map</div>),
+  }
+);
 
 export default function Footer() {
   return (
