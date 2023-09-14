@@ -16,7 +16,7 @@ const Services = () => {
         </div>
       </div>
       <div className="grid lg:grid-cols-10 gap-[24px] pt-[40px] pb-[100px]">
-        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-[#80DEEA] w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
+        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-white w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
           <h3 className="text-[#3D3D3D] text-center text-[16px] font-bold pt-[15px]">
             Full Grooming
           </h3>
@@ -36,7 +36,7 @@ const Services = () => {
             salon!
           </p>
         </div>
-        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-[#FFEB3B] w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
+        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-white w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
           <h3 className="text-[#3D3D3D] text-center text-[16px] font-bold pt-[15px]">
             Nail Trim
           </h3>
@@ -54,7 +54,7 @@ const Services = () => {
             products to leave your pet looking and feeling their best.
           </p>
         </div>
-        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-[#FF80AB] w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
+        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-white w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
           <h3 className="text-[#3D3D3D] text-center text-[16px] font-bold pt-[15px]">
             Bath & Brush
           </h3>
@@ -74,7 +74,7 @@ const Services = () => {
             tangle-free.
           </p>
         </div>
-        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-[#FF9E00] w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
+        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-white w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
           <h3 className="text-[#3D3D3D] text-center text-[16px] font-bold pt-[15px]">
             Ear Cleaning
           </h3>
@@ -92,7 +92,7 @@ const Services = () => {
             products to leave your pet looking and feeling their best.
           </p>
         </div>
-        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-[#AEEA00] w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
+        <div className="col-span-5 sm:col-span-5 md:col-span-3 lg:col-span-2 bg-white w-[231px] h-[380px] rounded-[20px] shadow-[0_30px_60px_0_rgba(0, 0, 0, 0.10)]">
           <h3 className="text-[#3D3D3D] text-center text-[16px] font-bold pt-[15px]">
             Sanitary Trim
           </h3>
