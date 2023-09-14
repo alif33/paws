@@ -14,7 +14,10 @@ export default function AboutUs() {
   const nextRef = useRef(null);
 
   return (
-    <div id="about-us" className="bg-[#FDF4FF] px-[100px] mt-[90px]">
+    <div
+      id="about-us"
+      className="bg-[url('/images/bgAbout.svg')] pt-[7rem] lg:pb-[13rem] px-[100px] mt-[-7rem]"
+    >
       <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[40px] lg:pb-[90px]">
         What our clients tell about us
       </h1>

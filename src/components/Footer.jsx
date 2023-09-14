@@ -1,20 +1,17 @@
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoFacebook } from "react-icons/io";
 import { SiYoutube } from "react-icons/si";
-import dynamic from "next/dynamic";
 
-const Map = dynamic(
-  () => import('./Map'),
-  {
-    ssr: false,
-    loading: () => (<div>Google map</div>),
-  }
-);
+const Map = dynamic(() => import("./Map"), {
+  ssr: false,
+  loading: () => <div>Google map</div>,
+});
 
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 pt-2 lg:grid-cols-12 bg-[#190020] min-h-[510px] mt-[100px] text-white">
+    <div className="grid grid-cols-1 pt-2 lg:grid-cols-12 bg-[#190020] min-h-[510px] text-white">
       <div className="lg:col-span-4 mx-auto my-auto">
         <div className="flex justify-start items-center gap-[7px]">
           <Image

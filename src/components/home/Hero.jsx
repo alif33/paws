@@ -3,21 +3,33 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="lg:mt-[29px] lg:min-h-[620px]">
+    <div className="lg:mt-[29px] ">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-[10px] mx-auto">
         <div className="col-span-12 sm:col-span-12 md:col-span-7 px-5 lg:ps-[70px] py-4 lg:py-[90px]">
           <h1 className="text-[24px] lg:text-[48px] text-[#3D3D3D] font-black">
             Stress-Free <span className="text-[#6F0C88]">Dog Grooming</span>:
             Where Your Pet's Happiness Matters.
           </h1>
-          <h6 className="text-[14px] text-[#3D3D3D] font-normal py-[30px]">
+          <h6 className="text-[14px] text-[#3D3D3D] font-normal py-[30px] pr-0 lg:pr-5">
             {
-              "Experience grooming like never before at our pet spa. We prioritize your dog's comfort, providing a soothing and stress-free grooming experience. Your furry friend deserves the best, and we're here to pamper them with care and love."
+              "We prioritize your dog's comfort, providing a soothing and stress-free grooming experience. Your furry friend deserves the best, and we're here to pamper them with care and love."
             }
           </h6>
-          <button className="bg-[#6F0C88] text-white py-[10px] lg:py-[20px] px-[50px] rounded-[7px]">
-            BOOK NOW
-          </button>
+          <div className="flex flex-col items-center">
+            <div className="flex items-center gap-6 pt-4 lg:pt-0">
+              <Image
+                className="max-w-[54px] max-h-[54px] lg:max-w-[64px] lg:max-h-[64px]"
+                src="/images/whatsapp.svg"
+                width={64}
+                height={64}
+                alt="whatsapp"
+              />
+              <h1 className="text-[#6F0C88] text-2xl lg:text-5xl font-bold lg:font-black">
+                236-700-8487
+              </h1>
+            </div>
+            <h1 className="text-[#B92A6F] text-[40px] font-black">Book now!</h1>
+          </div>
         </div>
         <div className="col-span-12 sm:col-span-12 md:col-span-5">
           <Image
