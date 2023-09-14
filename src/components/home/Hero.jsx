@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="mt-[29px] min-h-[620px]">
       <div className="grid grid-cols-12 gap-[10px]">
-        <div className="col-span-7 ps-[70px] py-[90px]">
+        <div className="col-span-12 sm:col-span-12 md:col-span-7 ps-[70px] py-[90px]">
           <h1 className="text-[48px] text-[#3D3D3D] font-black">
             Stress-Free <span className="text-[#6F0C88]">Dog Grooming</span>:
             Where Your Pet's Happiness Matters.
@@ -19,7 +19,7 @@ const Hero = () => {
             BOOK NOW
           </button>
         </div>
-        <div className="col-span-5">
+        <div className="col-span-12 sm:col-span-12 md:col-span-5">
           <Image
             src="/images/Dog.svg"
             width={608}

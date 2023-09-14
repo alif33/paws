@@ -10,6 +10,29 @@ export default function Calender() {
   const [_, setInit] = useState();
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+
+  const breakPoints = {
+    100: {
+      slidesPerView: 1
+    },
+    576: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    898: {
+      slidesPerView: 4,
+    },
+    1020: {
+      slidesPerView: 5,
+    },
+    1200: {
+      slidesPerView: 6,
+    },
+  } 
+
+
   return (
     <div>
       <h1 className="text-[#6F0C88] text-[40px] font-black text-center pt-[50px]">
@@ -24,6 +47,7 @@ export default function Calender() {
         </button>
         <Swiper
           slidesPerView={6}
+          breakpoints={breakPoints}
           spaceBetween={60}
           modules={[Navigation, A11y]}
           navigation={{

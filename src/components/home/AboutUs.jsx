@@ -3,7 +3,7 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 export default function AboutUs() {
   return (
-    <div className="bg-[#FDF4FF] px-[100px] mt-[90px]">
+    <div id="about-us" className="bg-[#FDF4FF] px-[100px] mt-[90px]">
       <h1 className="text-[#6F0C88] text-[40px] font-black text-center pt-[50px] pb-[90px]">
         What our clients tell about us
       </h1>

@@ -1,18 +1,29 @@
 "use client";
-
 import Image from "next/image";
-
-// Import Swiper styles
 import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// import required modules
+export default function Gallery() {
 
-export default function Clients() {
+  const breakPoints = {
+    100: {
+      slidesPerView: 1,
+    },
+    710: {
+      slidesPerView: 2,
+    },
+    1015: {
+      slidesPerView: 3,
+    },
+    1310: {
+      slidesPerView: 4,
+    },
+  } 
+
   return (
-    <div className="px-[70px] pt-[80px]">
+    <div id="gallery" className="px-[70px] pt-[80px] overflow-x-hidden">
       <div className="flex justify-between">
         <div className="text-[40px] font-black w-[896px] text-[#6F0C88]">
           {
@@ -28,12 +39,12 @@ export default function Clients() {
         <Swiper
           slidesPerView={4}
           spaceBetween={30}
-          // centeredSlides={true}
+          breakpoints={breakPoints}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
-          // navigation={true}
+          navigation={true}
           modules={[Autoplay]}
         >
           <SwiperSlide>
