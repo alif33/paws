@@ -22,7 +22,7 @@ export default function Gallery() {
   };
 
   return (
-    <div id="gallery" className="px-[70px] pt-[80px] overflow-x-hidden">
+    <div id="gallery" className="px-2 sm:px-2 md:px-[70px] pt-[80px] overflow-x-hidden">
       <div className="flex flex-col items-center lg:flex-row lg:justify-between">
         <div className="text-[20px] lg:text-[40px] font-black px-5 lg:px-0 pb-3 lg:pb-0 w-[400px] lg:w-[896px] text-[#6F0C88]">
           {
@@ -57,7 +57,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-full sm:w-full md:w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
               <Image
                 src="/images/dog2.svg"
                 width={256}
