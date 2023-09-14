@@ -34,7 +34,7 @@ export default function Gallery() {
           <Image src="/images/seeMore.svg" width={20} height={20} alt="arrow" />
         </div>
       </div>
-      <div className="flex justify-center pt-[40px]">
+      <div className="flex justify-center items-center pt-[40px]">
         <Swiper
           slidesPerView={4}
           spaceBetween={30}
@@ -47,7 +47,7 @@ export default function Gallery() {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog1.svg"
                 width={256}
@@ -57,7 +57,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-full sm:w-full md:w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog2.svg"
                 width={256}
@@ -67,7 +67,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog3.svg"
                 width={256}
@@ -77,7 +77,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog4.svg"
                 width={256}
@@ -87,7 +87,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog2.svg"
                 width={256}
@@ -97,7 +97,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog3.svg"
                 width={256}
@@ -107,7 +107,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog1.svg"
                 width={256}
@@ -117,7 +117,7 @@ export default function Gallery() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1">
+            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
               <Image
                 src="/images/dog2.svg"
                 width={256}
