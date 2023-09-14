@@ -40,7 +40,7 @@ export default function Calender() {
       </h1>
       <div className="flex items-center gap-[26px] px-2 sm:px-2 md:px-[70px] pt-[30px]">
         <button
-          className="flex justify-center items-center min-w-[80px] h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
+          className="flex justify-center items-center min-w-[50px] h-[50px] sm:min-w-[50px] sm:h-[50px] md:min-w-[80px] md:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
           ref={prevRef}
         >
           <BsChevronLeft size={28} />
@@ -128,7 +128,7 @@ export default function Calender() {
           </SwiperSlide>
         </Swiper>
         <button
-          className="flex justify-center items-center min-w-[80px] h-[80px] bg-white rounded-full shadow-lg cursor-pointer mx-auto"
+          className="flex justify-center items-center min-w-[50px] h-[50px] sm:min-w-[50px] sm:h-[50px] md:min-w-[80px] md:h-[80px] bg-white rounded-full shadow-lg cursor-pointer mx-auto"
           ref={nextRef}
         >
           <BsChevronRight size={28} />
