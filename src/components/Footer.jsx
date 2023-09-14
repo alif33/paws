@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoFacebook } from "react-icons/io";
 import { SiYoutube } from "react-icons/si";
+import Map from "./Map";
 
 export default function Footer() {
   return (
@@ -47,8 +48,9 @@ export default function Footer() {
             Aliquam nullam eget posuere ut curabitur et convallis tortor orci.
           </span>
         </div>
+        {/* // width={477} height={286} */}
         <div className="pt-[20px]">
-          <Image src="/images/map.svg" width={477} height={286} alt="map" />
+          <Map width={477} height={286} />
         </div>
       </div>
       <div className="col-span-3 bg-[#190020] mx-auto pt-[70px]">
