@@ -13,6 +13,20 @@ export default function AboutUs() {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
+  const breakPoints = {
+    100: {
+      slidesPerView: 1,
+    },
+    710: {
+      slidesPerView: 2,
+    },
+    1015: {
+      slidesPerView: 3,
+    },
+  };
+
+
+
   return (
     <div
       id="about-us"
@@ -30,6 +44,7 @@ export default function AboutUs() {
         </button>
         <Swiper
           slidesPerView={3}
+          breakpoints={breakPoints}
           spaceBetween={100}
           modules={[Navigation, A11y]}
           navigation={{
@@ -39,7 +54,7 @@ export default function AboutUs() {
           onInit={() => setInit(true)}
         >
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] rounded-[20px] w-[200px] lg:min-w-[278px] max-w-[278px] lg:min-h-[310px] max-h-[310px]">
+            <div className="bg-[#FFFFFF] rounded-[20px] w-[200px] lg:min-w-[278px] max-w-[278px] lg:min-h-[310px] max-h-[310px] mx-auto">
               <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person1.svg"
@@ -60,7 +75,7 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
+            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
               <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person2.svg"
@@ -80,7 +95,7 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
+            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
               <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person3.svg"
@@ -101,7 +116,7 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
+            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
               <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person2.svg"
@@ -121,7 +136,7 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
+            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
               <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person1.svg"
