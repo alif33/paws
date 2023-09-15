@@ -18,7 +18,7 @@ export default function AboutUs() {
       id="about-us"
       className="bg-[url('/images/bgAbout.svg')] pt-[7rem] lg:pb-[13rem] px-2 sm:px-2 md:px-[100px] mt-[-7rem]"
     >
-      <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[40px] lg:pb-[90px]">
+      <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[25px] lg:pb-[50px]">
         What our clients tell about us
       </h1>
       <div className="flex justify-around lg:justify-center items-center gap-[30px] pb-[40px]">
@@ -40,7 +40,7 @@ export default function AboutUs() {
         >
           <SwiperSlide>
             <div className="bg-[#FFFFFF] rounded-[20px] w-[200px] lg:min-w-[278px] max-w-[278px] lg:min-h-[310px] max-h-[310px]">
-              <div className="flex justify-center z-10 mt-[-50px]">
+              <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person1.svg"
                   width={98}
@@ -61,7 +61,7 @@ export default function AboutUs() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
-              <div className="flex justify-center z-10 mt-[-50px]">
+              <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person2.svg"
                   width={98}
@@ -81,7 +81,7 @@ export default function AboutUs() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
-              <div className="flex justify-center z-10 mt-[-50px]">
+              <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person3.svg"
                   width={98}
@@ -102,7 +102,7 @@ export default function AboutUs() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
-              <div className="flex justify-center z-10 mt-[-50px]">
+              <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person2.svg"
                   width={98}
@@ -122,7 +122,7 @@ export default function AboutUs() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px]">
-              <div className="flex justify-center z-10 mt-[-50px]">
+              <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person1.svg"
                   width={98}
@@ -150,11 +150,11 @@ export default function AboutUs() {
           <BsChevronRight size={28} />
         </button>
       </div>
-      {/* <div className="flex justify-center items-center gap-[10px] pb-[80px]">
+      <div className="flex justify-center items-center gap-[10px] pb-[80px]">
         <div className="min-w-[23px] min-h-[23px] bg-[#D9D9D9] rounded-full"></div>
         <div className="min-w-[23px] min-h-[23px] bg-[#6F0C88] rounded-full"></div>
         <div className="min-w-[23px] min-h-[23px] bg-[#D9D9D9] rounded-full"></div>
-      </div> */}
+      </div>
     </div>
   );
 }
