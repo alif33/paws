@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="bg-[url('/images/shapes/Bgservice.svg')] bg-cover bg-no-repeat lg:px-[70px] pt-44 lg:mt-[-11rem] z-10"
+      className="bg-[url('/images/shapes/BgService.svg')] bg-cover bg-no-repeat lg:px-[70px] pt-44 lg:mt-[-11rem] z-10"
     >
       {/* <div className="w-11/12 mx-auto"> */}
         <div className="pt-[8rem]">
