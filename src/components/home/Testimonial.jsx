@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonial() {
   return (
-    <div className="bg-[url('/images/bgTest.svg')] lg:mt-[-7rem] lg:min-w-[600px] px-0 lg:px-[70px] z-0 lg:z-1">
+    <div className="bg-[url('/images/shapes/bgTestimonial.svg')] bg-cover bg-no-repeat lg:mt-[-7rem] lg:min-w-[600px] px-0 lg:px-[70px] z-0 lg:z-1">
       <div className="pt-[7rem]">
         <h1 className="text-[#3D3D3D] text-center lg:text-left text-[20px] lg:text-[40px] font-medium">
           Why we are{" "}

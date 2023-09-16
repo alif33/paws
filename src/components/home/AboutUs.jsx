@@ -30,7 +30,7 @@ export default function AboutUs() {
   return (
     <div
       id="about-us"
-      className="bg-[url('/images/bgAbout.svg')] pt-[7rem] lg:pb-[13rem] px-2 sm:px-2 md:px-[100px] mt-[-7rem]"
+      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] lg:pb-16 px-2 sm:px-2 md:px-[100px] mt-[-7rem]"
     >
       <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[25px] lg:pb-[50px]">
         What our clients tell about us
