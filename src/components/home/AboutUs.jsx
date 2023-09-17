@@ -53,16 +53,18 @@ export default function AboutUs() {
           onInit={() => setInit(true)}
         >
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] rounded-[20px] w-[200px] min-w-[278px] max-w-[278px] lg:min-h-[310px] max-h-[310px] mx-auto">
+            <div className="bg-[#FFFFFF] rounded-[20px] w-[200px] min-w-[278px] max-w-[278px] lg:min-h-[310px] max-h-[310px] mx-auto relative">
               <div className="flex justify-center z-10 mt-[50px]">
-                <Image
-                  src="/images/person1.svg"
-                  width={98}
-                  height={98}
-                  alt="person1"
-                />
+                <div className="absolute -top-11">
+                  <Image
+                    src="/images/person1.svg"
+                    width={98}
+                    height={98}
+                    alt="person1"
+                  />
+                </div>
               </div>
-              <p className="pt-[25px] px-[20px] pb-[20px] text-[14px]">
+              <p className="pt-16 px-[20px] pb-[20px] text-[14px]">
                 Feugiat erat mi cum accumsan nulla gravida erat dignissim.
                 Congue dignissim eu ut blandit aliquet arcu molestie at. Porta
                 vel eget et enim magna et ornare id sollicitudin. In tortor
@@ -74,16 +76,18 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
+            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto relative">
               <div className="flex justify-center z-10 mt-[50px]">
-                <Image
-                  src="/images/person2.svg"
-                  width={98}
-                  height={98}
-                  alt="person2"
-                />
+                <div className="absolute -top-11">
+                  <Image
+                    src="/images/person2.svg"
+                    width={98}
+                    height={98}
+                    alt="person2"
+                  />
+                </div>
               </div>
-              <p className="pt-[25px] px-[20px] pb-[40px] text-[14px]">
+              <p className="pt-16 px-[20px] pb-[40px] text-[14px]">
                 Lacinia amet mi risus amet lacus scelerisque aliquet. Sed est
                 gravida facilisis risus eros eget. Placerat enim commodo blandit
                 libero risus arcu...
@@ -94,16 +98,18 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
+            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto relative">
               <div className="flex justify-center z-10 mt-[50px]">
-                <Image
-                  src="/images/person3.svg"
-                  width={98}
-                  height={98}
-                  alt="person3"
-                />
+                <div className="absolute -top-11">
+                  <Image
+                    src="/images/person3.svg"
+                    width={98}
+                    height={98}
+                    alt="person3"
+                  />
+                </div>
               </div>
-              <p className="pt-[25px] px-[20px] pb-[20px] text-[14px]">
+              <p className="pt-16 px-[20px] pb-[20px] text-[14px]">
                 Nulla non scelerisque nunc nisi. Amet justo aliquet volutpat
                 nullam tortor maecenas. Eget mauris quam a facilisis urna
                 placerat diam. Vel dictum nisl facilisi posuere bibendum.
@@ -115,16 +121,18 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
+            <div className="bg-[#6F0C88] text-white rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto relative">
               <div className="flex justify-center z-10 mt-[50px]">
-                <Image
-                  src="/images/person2.svg"
-                  width={98}
-                  height={98}
-                  alt="person2"
-                />
+                <div className="absolute -top-11">
+                  <Image
+                    src="/images/person2.svg"
+                    width={98}
+                    height={98}
+                    alt="person2"
+                  />
+                </div>
               </div>
-              <p className="pt-[25px] px-[20px] pb-[40px] text-[14px]">
+              <p className="pt-16 px-[20px] pb-[40px] text-[14px]">
                 Lacinia amet mi risus amet lacus scelerisque aliquet. Sed est
                 gravida facilisis risus eros eget. Placerat enim commodo blandit
                 libero risus arcu...
@@ -135,16 +143,18 @@ export default function AboutUs() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto">
+            <div className="bg-[#FFFFFF] rounded-[20px] min-w-[278px] max-w-[278px] min-h-[310px] max-h-[310px] mx-auto relative">
               <div className="flex justify-center z-10 mt-[50px]">
-                <Image
-                  src="/images/person1.svg"
-                  width={98}
-                  height={98}
-                  alt="person1"
-                />
+                <div className="absolute -top-11">
+                  <Image
+                    src="/images/person1.svg"
+                    width={98}
+                    height={98}
+                    alt="person1"
+                  />
+                </div>
               </div>
-              <p className="pt-[25px] px-[20px] pb-[20px] text-[14px]">
+              <p className="pt-16 px-[20px] pb-[20px] text-[14px]">
                 Feugiat erat mi cum accumsan nulla gravida erat dignissim.
                 Congue dignissim eu ut blandit aliquet arcu molestie at. Porta
                 vel eget et enim magna et ornare id sollicitudin. In tortor
