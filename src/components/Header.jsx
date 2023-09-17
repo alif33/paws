@@ -14,12 +14,14 @@ const Header = () => {
           <div className="w-14 h-14 lg:w-[74px] lg:h-[74px]">
             <Image src="/images/logo.svg" width={74} height={74} alt="logo" />
           </div>
-          <Image
-            src="/images/PAWS.PLACE.svg"
-            width={191}
-            height={24}
-            alt="brand_name"
-          />
+          <div className="w-44 lg:w-[191px] lg:h-[24px]">
+            <Image
+              src="/images/PAWS.PLACE.svg"
+              width={191}
+              height={24}
+              alt="brand_name"
+            />
+          </div>
         </div>
       </div>
       <div className="hidden lg:block col-span-2 sm:col-span-2 md:col-span-1">
