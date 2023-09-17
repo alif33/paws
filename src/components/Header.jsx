@@ -40,7 +40,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button onClick={() => setMenu(!menu)} className="focus:outline-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"

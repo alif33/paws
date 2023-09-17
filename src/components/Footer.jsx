@@ -12,7 +12,7 @@ const Map = dynamic(() => import("./Map"), {
 export default function Footer() {
   return (
     <div className="flex flex-col lg:grid grid-cols-1 pt-2 lg:grid-cols-12 bg-[#190020] min-h-[510px] text-white pb-5 lg:pb-0">
-      <div className="order-3 ps-10 lg:ps-0 lg:order-1 lg:col-span-4 lg:mx-auto my-auto">
+      <div className="ps-10 pt-3 lg:ps-0 lg:col-span-4 lg:mx-auto my-auto">
         <div className="flex justify-start items-center gap-[7px]">
           <Image
             src="/images/fologo.svg"
@@ -42,8 +42,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="order-1 lg:order-2 lg:col-span-5 bg-[#190020] pt-5 lg:pt-0 lg:mx-auto my-auto">
-        <h1 className="text-[20px] ps-10 lg;ps-0 lg:text-center lg:text-[30px] font-bold">
+      <div className="lg:col-span-5 bg-[#190020] pt-5 lg:pt-0 lg:mx-auto my-auto">
+        <h1 className="text-[20px] ps-10 lg:ps-0 lg:text-[30px] font-bold">
           Location
         </h1>
         <div className="flex items-center ps-3 gap-[11px] pt-[18px]">
@@ -61,7 +61,7 @@ export default function Footer() {
           <Map width={370} height={286} />
         </div>
       </div>
-      <div className="order-2 ps-10 lg:ps-0 lg:order-3 lg:col-span-3 pb-6 lg:pb-0 bg-[#190020] lg:mx-auto pt-[70px]">
+      <div className="ps-10 lg:ps-0 lg:col-span-3 pb-6 lg:pb-0 bg-[#190020] lg:mx-auto pt-[70px]">
         <h1 className="text-[20px] lg:text-[30px] font-bold">Explore</h1>
         <ul>
           <li className="text-[16px] font-medium pt-[30px]">Home</li>

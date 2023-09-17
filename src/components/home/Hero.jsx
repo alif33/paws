@@ -16,15 +16,15 @@ const Hero = () => {
             }
           </h6>
           <div className="flex flex-col items-center">
-            <div className="flex items-center gap-6 pt-4 lg:pt-0">
+            <div className="flex items-center gap-3 lg:gap-6 pt-4 lg:pt-0">
               <Image
-                className="max-w-[54px] max-h-[54px] lg:max-w-[64px] lg:max-h-[64px]"
+                className="max-w-[40px] max-h-[40px] lg:max-w-[50px] lg:max-h-[50px]"
                 src="/images/whatsapp.svg"
-                width={64}
-                height={64}
+                width={50}
+                height={50}
                 alt="whatsapp"
               />
-              <h1 className="text-[#6F0C88] text-2xl lg:text-5xl font-bold lg:font-black">
+              <h1 className="text-[#6F0C88] text-4xl md:text-6xl lg:text-6xl font-bold lg:font-black">
                 236-700-8487
               </h1>
             </div>

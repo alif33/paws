@@ -50,84 +50,100 @@ export default function Gallery() {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog1.svg"
-                width={256}
-                height={273}
-                alt="Dog1"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog1.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog1"
+                />
+              </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog2.svg"
-                width={256}
-                height={273}
-                alt="Dog2"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog2.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog2"
+                />
+              </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog3.svg"
-                width={256}
-                height={273}
-                alt="Dog3"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog3.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog3"
+                />
+              </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog4.svg"
-                width={256}
-                height={273}
-                alt="Dog4"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog4.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog4"
+                />
+              </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog2.svg"
-                width={256}
-                height={273}
-                alt="Dog2"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog2.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog2"
+                />
+              </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog3.svg"
-                width={256}
-                height={273}
-                alt="Dog3"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog3.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog3"
+                />
+              </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog1.svg"
-                width={256}
-                height={273}
-                alt="Dog5"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog1.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog5"
+                />
+              </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
-              <Image
-                src="/images/dog2.svg"
-                width={256}
-                height={273}
-                alt="Dog2"
-              />
-            </div>
+            <a href="">
+              <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
+                <Image
+                  src="/images/dog2.svg"
+                  width={256}
+                  height={273}
+                  alt="Dog2"
+                />
+              </div>
+            </a>
           </SwiperSlide>
         </Swiper>
       </div>
