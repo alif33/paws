@@ -4,10 +4,10 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import "swiper/css";
-import { A11y, Navigation } from "swiper/modules";
+import "swiper/css/pagination";
+import { A11y, Navigation, Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
 export default function AboutUs() {
   const [_, setInit] = useState();
   const prevRef = useRef(null);
@@ -25,12 +25,10 @@ export default function AboutUs() {
     },
   };
 
-
-
   return (
     <div
       id="about-us"
-      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] lg:pb-16 px-2 sm:px-2 md:px-[100px] mt-[-7rem]"
+      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] pb-11 lg:pb-16 px-2 sm:px-2 md:px-[100px] mt-[-7rem]"
     >
       <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[25px] lg:pb-[50px]">
         What our clients tell about us
@@ -46,15 +44,16 @@ export default function AboutUs() {
           slidesPerView={3}
           breakpoints={breakPoints}
           spaceBetween={100}
-          modules={[Navigation, A11y]}
+          modules={[Navigation, Pagination, A11y]}
           navigation={{
             prevEl: prevRef.current,
             nextEl: nextRef.current,
           }}
+          pagination={true}
           onInit={() => setInit(true)}
         >
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] rounded-[20px] w-[200px] lg:min-w-[278px] max-w-[278px] lg:min-h-[310px] max-h-[310px] mx-auto">
+            <div className="bg-[#FFFFFF] rounded-[20px] w-[200px] min-w-[278px] max-w-[278px] lg:min-h-[310px] max-h-[310px] mx-auto">
               <div className="flex justify-center z-10 mt-[50px]">
                 <Image
                   src="/images/person1.svg"
@@ -160,7 +159,7 @@ export default function AboutUs() {
 
         <button
           ref={nextRef}
-          className="flex justify-center items-center lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
+          className="flex justify-center items-center min-w-[40px] min-h-[40px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
         >
           <BsChevronRight size={28} />
         </button>

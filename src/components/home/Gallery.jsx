@@ -24,7 +24,7 @@ export default function Gallery() {
   return (
     <div
       id="gallery"
-      className="bg-[#FFE2E1] lg:mt-[-5rem] px-2 sm:px-2 md:px-[70px] pb-[10rem] pt-[130px] overflow-x-hidden"
+      className="bg-[#FFE2E1] mt-[-6rem] px-2 sm:px-2 md:px-[70px] pb-[10rem] pt-[130px] overflow-x-hidden"
     >
       <div className="flex flex-col items-center lg:flex-row lg:justify-between">
         <div className="text-[20px] lg:text-[40px] font-black px-5 lg:px-0 pb-3 lg:pb-0 w-[400px] lg:w-[896px] text-[#6F0C88]">
