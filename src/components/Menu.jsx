@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Menu() {
   return (
-    <div className="bg-white absolute top-10 right-9 w-[350px] pb-7">
+    <div className="bg-white absolute top-6 right-0 w-full">
       <ul className="flex flex-col justify-center items-center gap-[25px] text-[#3D3D3D] text-[10px]">
         <li className="cursor-pointer">
           <Link href="/#services">SERVICES</Link>
