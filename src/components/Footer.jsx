@@ -11,8 +11,8 @@ const Map = dynamic(() => import("./Map"), {
 
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 pt-2 lg:grid-cols-12 bg-[#190020] min-h-[510px] text-white">
-      <div className="lg:col-span-4 mx-auto my-auto">
+    <div className="flex flex-col lg:grid grid-cols-1 pt-2 lg:grid-cols-12 bg-[#190020] min-h-[510px] text-white pb-5 lg:pb-0">
+      <div className="order-3 lg:col-span-4 mx-auto my-auto">
         <div className="flex justify-start items-center gap-[7px]">
           <Image
             src="/images/fologo.svg"
