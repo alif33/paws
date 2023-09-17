@@ -28,7 +28,7 @@ export default function AboutUs() {
   return (
     <div
       id="about-us"
-      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] pb-24 lg:pb-32 px-2 sm:px-2 md:px-[100px] mt-[-7rem]"
+      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] pb-24 lg:pb-32 px-2 sm:px-2 md:px-[100px] mt-[-8rem]"
     >
       <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[25px] lg:pb-[50px]">
         What our clients tell about us
@@ -49,7 +49,9 @@ export default function AboutUs() {
             prevEl: prevRef.current,
             nextEl: nextRef.current,
           }}
-          pagination={true}
+          pagination={{
+            el: ".pagination-container",
+          }}
           onInit={() => setInit(true)}
         >
           <SwiperSlide>
@@ -174,11 +176,7 @@ export default function AboutUs() {
           <BsChevronRight size={28} />
         </button>
       </div>
-      {/* <div className="flex justify-center items-center gap-[10px] pb-[80px]">
-        <div className="min-w-[23px] min-h-[23px] bg-[#D9D9D9] rounded-full"></div>
-        <div className="min-w-[23px] min-h-[23px] bg-[#6F0C88] rounded-full"></div>
-        <div className="min-w-[23px] min-h-[23px] bg-[#D9D9D9] rounded-full"></div>
-      </div> */}
+      <div className="flex justify-center items-center gap-[10px] pb-[80px] pagination-container"></div>
     </div>
   );
 }
