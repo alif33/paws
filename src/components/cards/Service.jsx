@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Card = ({title, img, price, bg, color, desc }) =>{
+const Card = ({title, img, price, color, desc }) =>{
     return(
         <div className="col-span-1 bg-[#FFFFFF] rounded-[20px] border-[1px] border-[#DBD3DC] shadow-sm">
           <div className="flex justify-between items-center pt-3 px-[15px]">
             <Image
-              className={`bg-[#1B74EB] rounded-full p-2 max-w-[54px] max-h-[54px] lg:max-w-[64px] lg:max-h-[64px]`}
+              className={`bg-[${color}] rounded-full p-2 max-w-[54px] max-h-[54px] lg:max-w-[64px] lg:max-h-[64px]`}
               src={img}
               width={64}
               height={64}

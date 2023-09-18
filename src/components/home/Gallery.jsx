@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
@@ -24,7 +25,7 @@ export default function Gallery() {
   return (
     <div
       id="gallery"
-      className="bg-[#FFE2E1] mt-[-6rem] px-2 sm:px-2 md:px-[70px] pb-[10rem] pt-[130px] overflow-x-hidden"
+      className="bg-[#FFE2E1] mt-[-7rem] lg:mt-[-6rem] px-2 sm:px-2 md:px-[70px] pb-[10rem] pt-[130px] overflow-x-hidden"
     >
       <div className="flex flex-col items-center lg:flex-row lg:justify-between">
         <div className="text-[20px] lg:text-[40px] font-black px-5 lg:px-0 pb-3 lg:pb-0 w-[400px] lg:w-[896px] text-[#6F0C88]">
@@ -39,7 +40,7 @@ export default function Gallery() {
       </div>
       <div className="flex justify-center items-center pt-[40px]">
         <Swiper
-          slidesPerView={4}
+          slidesPerView={1}
           spaceBetween={30}
           breakpoints={breakPoints}
           autoplay={{
@@ -50,7 +51,7 @@ export default function Gallery() {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog1.svg"
@@ -59,10 +60,10 @@ export default function Gallery() {
                   alt="Dog1"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog2.svg"
@@ -71,10 +72,10 @@ export default function Gallery() {
                   alt="Dog2"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog3.svg"
@@ -83,10 +84,10 @@ export default function Gallery() {
                   alt="Dog3"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog4.svg"
@@ -95,10 +96,10 @@ export default function Gallery() {
                   alt="Dog4"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog2.svg"
@@ -107,10 +108,10 @@ export default function Gallery() {
                   alt="Dog2"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[269px] h-[287px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog3.svg"
@@ -119,10 +120,10 @@ export default function Gallery() {
                   alt="Dog3"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog1.svg"
@@ -131,10 +132,10 @@ export default function Gallery() {
                   alt="Dog5"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="">
+            <Link href="/">
               <div className="border-[2px] w-[270px] h-[285px] border-dashed border-[#6F0C88] rounded-[20px] px-1 py-1 mx-auto">
                 <Image
                   src="/images/dog2.svg"
@@ -143,7 +144,7 @@ export default function Gallery() {
                   alt="Dog2"
                 />
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
         </Swiper>
       </div>

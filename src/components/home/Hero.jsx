@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-[10px] mx-auto">
         <div className="col-span-12 sm:col-span-12 md:col-span-7 px-5 lg:ps-[70px] py-4 lg:py-[90px]">
           <h1 className="text-[24px] lg:text-[48px] text-[#3D3D3D] font-black">
-            Stress-Free <span className="text-[#6F0C88]">Dog Grooming</span>:
+            Stress-Free <span className="text-[#B92A6F]">Dog Grooming</span>:
             Where Your Pet's Happiness Matters.
           </h1>
           <h6 className="text-[14px] text-[#3D3D3D] font-normal py-[30px] pr-0 lg:pr-5">
@@ -28,7 +28,7 @@ const Hero = () => {
                 236-700-8487
               </h1>
             </div>
-            <h1 className="text-[#B92A6F] text-[40px] font-black">Book now!</h1>
+            <h1 className="text-[#B92A6F] text-[32px] font-black">Book now!</h1>
           </div>
         </div>
         <div className="col-span-12 sm:col-span-12 md:col-span-5">
