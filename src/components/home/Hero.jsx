@@ -31,7 +31,7 @@ const Hero = () => {
             <h1 className="text-[#B92A6F] text-[32px] font-black">Book now!</h1>
           </div>
         </div>
-        <div className="col-span-12 sm:col-span-12 md:col-span-5">
+        <div className="col-span-12 sm:col-span-12 md:col-span-5 w-9/12 sm:w-8/12 md:w-8/12 lg:w-full mx-auto">
           <Image
             src="/images/Dog.svg"
             width={608}
