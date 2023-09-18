@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Link from "next/link";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoFacebook } from "react-icons/io";
 import { SiYoutube } from "react-icons/si";
@@ -30,9 +31,9 @@ export default function Footer() {
         <div className="pt-[40px]">
           <h1 className="text-[20px] lg:text-[30px] font-bold">Social media</h1>
           <div className="flex items-center gap-[10px] pt-[30px]">
-            <IoLogoFacebook color="white" size={28} />
-            <SiYoutube color="white" size={27} />
-            <AiFillInstagram color="white" size={28} />
+            <Link href="/"><IoLogoFacebook color="white" size={28} /></Link>
+            <Link href="/"><SiYoutube color="white" size={27} /></Link>
+            <Link href="/"><AiFillInstagram color="white" size={28} /></Link>
           </div>
           <div className="pt-[40px]">
             <h3 className="text-[16px] font-medium">Contact</h3>
@@ -42,8 +43,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="lg:col-span-5 bg-[#190020] pt-5 lg:pt-0 lg:mx-auto my-auto">
-        <h1 className="text-[20px] ps-10 lg:ps-0 lg:text-[30px] font-bold">
+      <div className="lg:col-span-5 bg-[#190020] pt-5 ps-10 lg:ps-0 lg:pt-0 lg:mx-auto my-auto">
+        <h1 className="text-[20px] lg:text-[30px] font-bold">
           Location
         </h1>
         <div className="flex items-center ps-3 gap-[11px] pt-[18px]">

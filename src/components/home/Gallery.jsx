@@ -28,15 +28,18 @@ export default function Gallery() {
       className="bg-[#FFE2E1] mt-[-7rem] lg:mt-[-6rem] px-2 sm:px-2 md:px-[70px] pb-[10rem] pt-[130px] overflow-x-hidden"
     >
       <div className="flex flex-col items-center lg:flex-row lg:justify-between">
-        <div className="text-[20px] lg:text-[40px] font-black px-5 lg:px-0 pb-3 lg:pb-0 w-[400px] lg:w-[896px] text-[#6F0C88]">
+        <div className="text-[20px] lg:text-[40px] font-black px-5 lg:px-0 pb-3 lg:pb-0 w-[400px] sm:w-[500px] md:w-[700px] lg:w-[896px] text-[#6F0C88] mx-auto">
           {
             "Pet gallery, take a look on our special clients and how they look like"
           }
         </div>
-        <div className="flex justify-center items-center gap-[10px] rounded-[7px] h-[52px] bg-[#6F0C88] text-white py-[20px] ps-[35px] pr-[20px] my-auto cursor-pointer">
-          <span>See more</span>
-          <Image src="/images/seeMore.svg" width={20} height={20} alt="arrow" />
-        </div>
+        <Link className="block" href="/">
+          <div className="flex justify-center items-center gap-[10px] rounded-[7px] h-[52px] bg-[#6F0C88] text-white py-[20px] ps-[35px] pr-[20px] my-auto cursor-pointer">
+            <span>See more</span>
+            <Image src="/images/seeMore.svg" width={20} height={20} alt="arrow" />
+          </div>
+        </Link>
+        
       </div>
       <div className="flex justify-center items-center pt-[40px]">
         <Swiper
