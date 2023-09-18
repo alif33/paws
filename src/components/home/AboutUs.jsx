@@ -14,15 +14,15 @@ export default function AboutUs() {
   const nextRef = useRef(null);
 
   const breakPoints = {
-    100: {
+    330: {
       slidesPerView: 1,
     },
-    710: {
+    1014: {
       slidesPerView: 2,
     },
-    1015: {
+    1400: {
       slidesPerView: 3,
-    },
+    }
   };
 
   return (
@@ -36,14 +36,14 @@ export default function AboutUs() {
       <div className="flex justify-around lg:justify-center items-center gap-[30px] pb-[40px]">
         <button
           ref={prevRef}
-          className="flex justify-center items-center min-w-[40px] min-h-[40px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
+          className="flex justify-center items-center min-w-[50px] min-h-[50px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
         >
           <BsChevronLeft size={28} />
         </button>
         <Swiper
-          slidesPerView={3}
+          slidesPerView={1}
           breakpoints={breakPoints}
-          spaceBetween={100}
+          spaceBetween={20}
           modules={[Navigation, Pagination, A11y]}
           navigation={{
             prevEl: prevRef.current,
@@ -171,7 +171,7 @@ export default function AboutUs() {
 
         <button
           ref={nextRef}
-          className="flex justify-center items-center min-w-[40px] min-h-[40px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
+          className="flex justify-center items-center min-w-[50px] min-h-[50px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
         >
           <BsChevronRight size={28} />
         </button>
