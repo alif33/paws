@@ -24,7 +24,7 @@ const Hero = () => {
                 height={50}
                 alt="whatsapp"
               />
-              <h1 className="text-[#6F0C88] text-4xl md:text-6xl lg:text-6xl font-bold lg:font-black">
+              <h1 className="text-[#6F0C88] text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold lg:font-black">
                 236-700-8487
               </h1>
             </div>

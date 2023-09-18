@@ -14,7 +14,7 @@ const Services = () => {
           customized to perfectly meet your pet's unique needs.
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[30px] pt-[50px] mx-2 sm:mx-20 md:mx-3 lg:mx-3 xl:mx-7 2xl:mx-20 lg:pr-4 pb-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[30px] pt-[50px] mx-2 sm:mx-20 md:mx-3 lg:mx-0 xl:mx-0 2xl:mx-20 lg:pr-4 pb-32">
         {/* Card-1 */}
         <div className="col-span-1 bg-[#FFFFFF] rounded-[20px] border-[1px] border-[#DBD3DC] shadow-sm">
           <div className="flex justify-between items-center pt-3 px-[15px]">
