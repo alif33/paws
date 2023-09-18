@@ -10,7 +10,7 @@ const Hero = () => {
             Stress-Free <span className="text-[#B92A6F]">Dog Grooming</span>:
             Where Your Pet's Happiness Matters.
           </h1>
-          <h6 className="text-[14px] text-[#3D3D3D] font-normal py-[30px] pr-0 lg:pr-5">
+          <h6 className="text-[16px] sm:text-[16px] text-[#3D3D3D] font-normal py-[30px] pr-0 lg:pr-5">
             {
               "We prioritize your dog's comfort, providing a soothing and stress-free grooming experience. Your furry friend deserves the best, and we're here to pamper them with care and love."
             }
@@ -31,14 +31,17 @@ const Hero = () => {
             <h1 className="text-[#B92A6F] text-[32px] font-black">Book now!</h1>
           </div>
         </div>
-        <div className="col-span-12 sm:col-span-12 md:col-span-5 w-9/12 sm:w-8/12 md:w-8/12 lg:w-full mx-auto">
-          <Image
-            src="/images/Dog.svg"
-            width={608}
-            height={625}
-            layout="responsive"
-            alt="hero_image"
-          />
+        <div className="flex justify-center sm:justify-center md:justify-end lg:justify-start col-span-12 sm:col-span-12 md:col-span-5">
+          <div className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-full">
+            <Image
+              src="/images/Dog.svg"
+              width={608}
+              height={625}
+              layout="responsive"
+              className="block"
+              alt="hero_image"
+            />
+          </div>
         </div>
       </div>
     </div>
