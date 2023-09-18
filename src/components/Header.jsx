@@ -8,7 +8,7 @@ import Menu from "./Menu";
 const Header = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <div className="flex lg:grid lg:grid-cols-2 justify-between items-center max-w-[1300px] px-10 mx-auto mt-[18px] relative">
+    <div className="flex lg:grid lg:grid-cols-2 justify-between items-center max-w-[1300px] px-5 lg:px-10 mx-auto mt-[18px] relative">
       <div className="col-span-2 sm:col-span-2 md:col-span-1">
         <div className="flex justify-center sm:justify-center md:justify-normal items-center gap-[14px]">
           <div className="w-14 h-14 lg:w-[74px] lg:h-[74px]">
