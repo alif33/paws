@@ -28,15 +28,15 @@ export default function AboutUs() {
   return (
     <div
       id="about-us"
-      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] pb-24 lg:pb-32 px-2 sm:px-2 md:px-[100px] mt-[-8rem]"
+      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] pb-24 lg:pb-32 px-0 sm:px-2 md:px-[100px] mt-[-8rem]"
     >
       <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[25px] lg:pb-[50px]">
         What our clients tell about us
       </h1>
-      <div className="flex justify-around lg:justify-center items-center gap-[30px] pb-[40px]">
+      <div className="flex justify-around lg:justify-center items-center gap-1 sm:gap-[10px] md:gap-[30px] pb-[40px]">
         <button
           ref={prevRef}
-          className="flex justify-center items-center min-w-[50px] min-h-[50px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
+          className="flex justify-center items-center min-h-[40px] min-w-[40px] sm:min-w-[50px] sm:min-h-[50px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
         >
           <BsChevronLeft size={28} />
         </button>
@@ -171,7 +171,7 @@ export default function AboutUs() {
 
         <button
           ref={nextRef}
-          className="flex justify-center items-center min-w-[50px] min-h-[50px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
+          className="flex justify-center items-center min-h-[40px] min-w-[40px] sm:min-w-[50px] sm:min-h-[50px] lg:min-w-[80px] lg:h-[80px] bg-white rounded-full shadow-lg cursor-pointer"
         >
           <BsChevronRight size={28} />
         </button>
