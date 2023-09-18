@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="lg:mt-[29px] ">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-[10px] mx-auto">
+      <div className="grid grid-cols-12 gap-[10px] mx-auto">
         <div className="col-span-12 sm:col-span-12 md:col-span-7 px-5 lg:ps-[70px] py-4 lg:py-[90px]">
           <h1 className="text-[24px] lg:text-[48px] text-[#3D3D3D] font-black">
             Stress-Free <span className="text-[#B92A6F]">Dog Grooming</span>:
@@ -24,15 +24,14 @@ const Hero = () => {
                 height={50}
                 alt="whatsapp"
               />
-              <h1 className="text-[#6F0C88] text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold lg:font-black">
+              <h1 className="text-[#6F0C88] text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold lg:font-black">
                 236-700-8487
               </h1>
             </div>
-            <h1 className="text-[#B92A6F] text-[32px] font-black">Book now!</h1>
+            <h1 className="text-[#B92A6F] text-[32px] md:text-[28] lg:text-[32px] font-black">Book now!</h1>
           </div>
         </div>
-        <div className="flex justify-center sm:justify-center md:justify-end lg:justify-start col-span-12 sm:col-span-12 md:col-span-5">
-          <div className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-full">
+        <div className="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 w-7/12 sm:w-7/12 md:w-full mx-auto md:mx-0">
             <Image
               src="/images/Dog.svg"
               width={608}
@@ -41,7 +40,6 @@ const Hero = () => {
               className="block"
               alt="hero_image"
             />
-          </div>
         </div>
       </div>
     </div>
