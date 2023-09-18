@@ -28,7 +28,7 @@ export default function AboutUs() {
   return (
     <div
       id="about-us"
-      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] pb-24 lg:pb-32 px-0 sm:px-2 md:px-[100px] mt-[-8rem]"
+      className="bg-[url('/images/shapes/BgAboutUs.svg')] bg-cover bg-no-repeat pt-[7rem] pb-24 lg:pb-32 px-3 sm:px-2 md:px-[100px] mt-[-8rem]"
     >
       <h1 className="text-[#6F0C88] text-[20px] lg:text-[40px] font-black text-center pt-[50px] pb-[25px] lg:pb-[50px]">
         What our clients tell about us

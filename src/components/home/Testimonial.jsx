@@ -8,7 +8,7 @@ export default function Testimonial() {
           Why we are{" "}
           <span className="text-[#6F0C88] font-black">different?</span>{" "}
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-3 pt-[60px] lg:gap-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 pt-[60px] gap-1 lg:gap-[100px]">
           <div className="flex flex-col items-center gap-[13px]">
             <Image
               className="bg-[#1672EC] rounded-[40px] p-4"
